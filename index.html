@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC Classification for Dietitians | By Leandro Duarte</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-mobile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo:wght@100;200;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="mainContainer">
+        <header>
+            <h1>Cálculo IMC - Índice de Massa Corporal</h1>
+        </header>
+        <main>
+            <div id="dataContainer">
+                <form action="#" name="dataForm" method="POST" id="mainForm">
+                    <input type="text" id="clientName" placeholder="Digite seu nome"> <br><br>
+                    <input type="number" id="clientWeight" placeholder="Digite seu peso em Kg (Ex: 62.5)"><br><br>    
+                    <input type="number" id="clientReight" placeholder="Digite sua altura em Cm (Ex: 1.52)"><br><br>
+                    <button type="submit" id="clientCalc">Calcular</button>    
+                </form><br><br>
+            </div>
+            <div id="resultContainer">
+                <h2>Confira o seu IMC aqui</h2>
+                <h2 id="imcResult"></h2>
+                <h2 id="titleResult"></h2>
+                <h3 id="diagResult"></h3>
+            </div>
+        </main>
+        <aside></aside>
+        <footer>Version 1.0 | Created by Leandro Duarte</footer>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
